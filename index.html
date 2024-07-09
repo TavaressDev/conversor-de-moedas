@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Mortgage repayment calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card1">
+        <div class="card1__textos">
+          <h1 class="card1__titulo">Conversor de moedas</h1>
+          <a href="#" class="card1__link">limpar tudo</a>
+        </div>
+        <form class="form1">
+          <label for="moeda1">Escolha a sua primeira moeda</label>
+          <select name="moeda1" id="moeda1">
+            <option value="real">Real(BRL)</option>
+            <option value="dolar">Dolar(USD)</option>
+            <option value="euro">Euro(EUR)</option>
+          </select>
+          <label for="moeda1__qtd">Insira a quantidade que você tem</label>
+          <input type="number" name="" id="moeda1__qtd" />
+          <label for="moeda2">
+            Escolha a moeda para qual você quer converter
+          </label>
+          <select name="moeda2" id="moeda2">
+            <option value="real">Real(BRL)</option>
+            <option value="dolar">Dolar(USD)</option>
+            <option value="euro">Euro(EUR)</option>
+          </select>
+          <button class="botao_converter">
+            <img src="assets/images/icon-calculator.svg" alt="" />CONVERTER
+          </button>
+        </form>
+      </div>
+      <div class="card2">
+        <div class="card2__textos">
+          <img
+            id="img_contas"
+            src="assets/images/illustration-empty.svg"
+            alt=""
+          />
+          <h1>Resultado</h1>
+          <p class="card2__p">
+            Confira abaixo o resultado da <br />
+            sua conversão de moedas!
+          </p>
+        </div>
+        <form class="form2 hidden">
+          <div class="form2-container">
+            <p class="qtd__titulo">Sua quantidade:</p>
+            <p class="qtd"></p>
+            <!-- Verificar a classe -->
+          </div>
+          <div class="form2-container" id="conversao-container">
+            <p class="conversao__titulo">Conversão:</p>
+            <p class="conversao"></p>
+            <!-- Verificar a classe -->
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
