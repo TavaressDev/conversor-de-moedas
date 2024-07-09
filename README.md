@@ -16,6 +16,7 @@ link do vercel para navegar pelo projeto: https://conversor-de-moedas-gamma.verc
 - Interface responsiva que se adapta a diferentes dispositivos.
 - Mensagens de erro para entradas inválidas.
 - Limpeza rápida dos campos do formulário.
+- Cotação real das moedas(em desenvolvimento)
 
 # Tecnologias Utilizadas
 - HTML
