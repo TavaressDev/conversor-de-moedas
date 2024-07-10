@@ -1,5 +1,5 @@
 # conversor de moedas
-Olá! Gostaria de apresentar um projeto que fiz inspirado no site Frontend Mentor, onde me propus a treinar a responsividade e a revisar HTML, CSS e JavaScript!
+Olá! Gostaria de apresentar um projeto que fiz inspirado em desafio no site Frontend Mentor, onde me propus a treinar a responsividade e a revisar HTML, CSS e JavaScript!
 
 
 
